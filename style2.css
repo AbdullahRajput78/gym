@@ -1,0 +1,457 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+
+    
+    
+}
+
+/* ////////////////////  navbar    ///////////////////// */
+.left {
+    position: absolute;
+    left: 35px;
+    top: 15px;
+    color: beige;
+}
+
+.left img {
+    width: 136px;
+    filter: invert(100%);
+    margin-left: 20px;
+}
+
+.left p {
+    margin-top: 0px;
+    font-size: 1.5rem;
+    color: rgb(36, 151, 32);
+    margin-left: 20px;
+
+}
+
+.mid {
+    display: flex;
+    width: 55%;
+    margin: auto;
+
+}
+
+.navbar {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.navbar li {
+    display: grid;
+}
+
+.navbar li a {
+    font-size: x-large;
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar li a:hover {
+    color: rgb(234, 95, 118);
+}
+
+.active {
+    color: rgb(234, 95, 118);
+    font-size: 1.7rem;
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 37px;
+    display: inline-block;
+}
+
+.right button {
+    background-color: rgb(234, 95, 118);
+    width: 120px;
+    height: 50px;
+    font-size: large;
+    border-radius: 35px;
+    border-color: rgb(234, 95, 118);
+}
+
+.br {
+    margin-left: 10px;
+}
+
+/* /////////////////////////////backgorund image/////////////////////////////// */
+
+.first {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    
+    column-gap: 75px;
+    margin: auto;
+
+    
+}
+.first{
+    width: 100%;
+    max-width: 00px;
+}
+.first img:hover{
+    opacity: 0.9;
+   box-shadow: rgba(201, 164, 164, 0.885) 0px 10px 20px, rgba(189, 13, 13, 0.839) 0px 6px 6px; 
+}
+.first h2{
+     text-align: center;
+     font-size: 2.5rem;
+     margin-top: -2px;
+}
+.first p{
+   display: flex;
+   flex-direction: row;
+    font-size: 8rem;
+}
+
+.borderimage button{
+      margin-top: 2%;
+      background-color: rgb(234, 95, 118);
+      width: 120px;
+      height: 50px;
+      font-size: large;
+      border-radius: 35px;
+      border-color: rgb(234, 95, 118);
+}
+
+.first button:hover{
+    color: white;
+    background-color: black;
+    box-shadow: rgb(241, 235, 235) 0px 50px 100px -20px, rgba(255, 249, 249, 0.944) 0px 30px 60px -30px, rgb(249, 249, 249) 0px -2px 6px 0px inset;
+    border-color: rgb(0, 0, 0);
+}
+
+.text4 {
+    border: 1px solid rgb(234, 95, 118);
+    background-color: rgb(234, 95, 118);
+    width: 150px;
+    height: 40px;
+    /* margin-top: 10px;
+    margin-left: 45%; */
+    font-weight: bold;
+    font-size: large;
+    border-radius: 30px;
+}
+
+/* //////////////////////////////////// video ///////////////////////////////////////////// */
+
+.video {
+    box-shadow: rgba(255, 255, 255, 0.985) 0px 6px 12px -2px, rgba(255, 255, 255, 0.985) 0px 3px 7px -3px;
+    margin-top: 6%;
+    margin-left: 14%;
+    width: 80%;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ////////////////////////////////// Our Branches ///////////////////////////// */
+
+.branches{
+    font-size: 5rem;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap-reverse;
+   align-items: center;
+    font-weight: bold;
+    color: green;
+    margin-top: 3%;
+}
+.branches:hover{
+    text-shadow: 5px 13px 13px green;
+color: white;
+}
+
+.branch {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-content: center;
+    margin-left: 0px;
+    gap: 50px 40px;
+
+}
+
+.branch img {
+   max-width: 500px;
+    width: 100%;
+}
+.branch img:hover{
+    opacity: 0.7;
+}
+/* /////////////////this is for aybee fitness///////////////////////// */
+
+
+.borderimage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    column-gap: 75px;
+    margin: auto;
+
+    
+}
+.im{
+    width: 100%;
+    max-width: 600px;
+}
+.borderimage .im:hover{
+    opacity: 0.1;
+   box-shadow: rgba(201, 164, 164, 0.885) 0px 10px 20px, rgba(189, 13, 13, 0.839) 0px 6px 6px; 
+}
+.borderimage h2{
+     text-align: center;
+     font-size: 2.5rem;
+     margin-top: -2px;
+}
+.borderimage p{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.borderimage button{
+      margin-top: 2%;
+      background-color: rgb(234, 95, 118);
+      width: 120px;
+      height: 50px;
+      font-size: large;
+      border-radius: 35px;
+      border-color: rgb(234, 95, 118);
+}
+
+.borderimage button:hover{
+    color:white;
+    background-color: black;
+    box-shadow: rgb(241, 235, 235) 0px 50px 100px -20px, rgba(255, 249, 249, 0.944) 0px 30px 60px -30px, rgb(249, 249, 249) 0px -2px 6px 0px inset;
+    border-color: rgb(0, 0, 0);
+}
+/* /////////////////fitness is for everyone////////////////////// */
+
+.borderimage2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    column-gap: 75px;
+    margin: auto;
+    flex-direction: row-reverse;
+    
+}
+.im{
+    width: 100%;
+    max-width: 600px;
+}
+
+.borderimage2 .im:hover{
+    opacity: 0.8;
+    box-shadow: rgba(201, 164, 164, 0.885) 0px 10px 20px, rgba(189, 13, 13, 0.839) 0px 6px 6px; 
+    
+}
+.borderimage2 h2{
+     text-align: center;
+     font-size: 2.5rem;
+     margin-top: -2px;
+}
+.borderimage2 p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.borderimage2 button{
+      margin-top: 2%;
+      background-color: rgb(234, 95, 118);
+      width: 120px;
+      height: 50px;
+      font-size: large;
+      border-radius: 35px;
+      border-color: rgb(234, 95, 118);
+}
+
+.borderimage2 button:hover{
+    color: white;
+    background-color: black;
+    box-shadow: rgb(241, 235, 235) 0px 50px 100px -20px, rgba(255, 249, 249, 0.944) 0px 30px 60px -30px, rgb(249, 249, 249) 0px -2px 6px 0px inset;
+    border-color: rgb(0, 0, 0);
+}
+
+strong {
+    color: green;
+}
+
+
+
+.topnotchfacilities{
+    font-size: 5rem;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+    font-weight: bold;
+    color: green;
+}
+.topnotchfacilities:hover{
+    text-shadow: 5px 13px 13px green;
+color: white;
+}
+
+/* /////////////////////////           facilities         //////////////////////////// */
+
+
+.facilities {
+    font-size: 3rem;
+    font-weight: bold;
+   display: flex;
+   flex-direction: row;
+  
+    margin-top: 1%;
+    margin-right: 80px;
+   
+
+
+}
+.facilities img{
+    width: 100%;
+   max-width: 450px;
+    
+}
+
+/* ///////////////////////// footer ////////////////////////// */
+
+
+
+.footer {
+    height: 550px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 50px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    flex: 3 ;
+}
+.text4:hover{
+    color: white;
+    background-color: black;
+    box-shadow: rgb(241, 235, 235) 0px 50px 100px -20px, rgba(255, 249, 249, 0.944) 0px 30px 60px -30px, rgb(249, 249, 249) 0px -2px 6px 0px inset;
+    border-color: rgb(0, 0, 0);
+
+}
+
+/* ///////////////////////////////footer left side//////////////////////////////////////// */
+.footerleft {
+    position: relative;
+
+}
+
+.footerleft>.left {
+    margin-left: 15%;
+}
+
+.footerleftpara {
+    margin-top: 150px;
+    margin-left: 60px;
+    font-weight: bold;
+  
+}
+.socialmedia{
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+    
+}
+.socialmedia i:hover{
+    font-size: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* /////////////////////////           footer mid           //////////////////////////// */
+.footermid {
+    background-color: rgba(0, 0, 0, 0.144);
+    height: 550px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.footermid span{
+    font-size: 1.2rem;
+    color: red;
+}
+
+.firstname{
+    margin-left: -61%;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.footermid input{
+ max-width: 400px;
+ width: 100%;
+ height: 35px;
+ background-color:  rgba(0, 0, 0, 0.144);
+ border-color:  rgba(0, 0, 0, 0.144);
+ color: rgba(255, 255, 255, 0.798);
+ font-size: 1.2rem;
+ margin-top:-4% ;
+ 
+}
+.footermid input:hover{
+    background-color: black;
+    color: white;
+    
+   
+}
+.phonenumber{
+    margin-left: -54%;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.footermid button{
+   
+    background-color: rgb(234, 95, 118);
+    width: 120px;
+    height: 50px;
+    font-size: large;
+    border-radius: 35px;
+    border-color: rgb(234, 95, 118);
+}
+.footermid button:hover{
+    color: white;
+    background-color: black;
+    box-shadow: rgb(241, 235, 235) 0px 50px 100px -20px, rgba(255, 249, 249, 0.944) 0px 30px 60px -30px, rgb(249, 249, 249) 0px -2px 6px 0px inset;
+    border-color: rgb(0, 0, 0);
+}
+/* /////////////////////////           footerrightside        ////////////////////////////// */
+.footerright{
+      margin-top: 6%;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 1.5rem;
+      text-decoration: none;
+      margin-top: 10px;
+      justify-content: center;
+      
+}
